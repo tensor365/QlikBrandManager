@@ -1,0 +1,57 @@
+{
+    "name": "electron-fluent-ui",
+    "description": "Template for developing Electron applications using TypeScript and Fluent UI React components",
+    "version": "4.2.1",
+    "license": "MIT",
+    "author": {
+        "email": "clementparsy02@gmail.com",
+        "name": "Clément Parsy",
+        "url": "https://github.com/tensor365"
+    },
+    "main": "dist-main/index.js",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite",
+        "lint": "eslint . --ext js,ts,tsx",
+        "package:publish": "electron-builder --config electron-builder.config.js --publish always",
+        "package": "electron-builder --config electron-builder.config.js",
+        "prettier:check": "prettier --check -- src/**/*.{ts,tsx}",
+        "test:coverage": "vitest run --coverage",
+        "test:watch": "vitest",
+        "test": "vitest run",
+        "typecheck": "pnpm typecheck:main && pnpm typecheck:preload && pnpm typecheck:renderer",
+        "typecheck:main": "tsc -p src/main/tsconfig.json --noEmit",
+        "typecheck:preload": "tsc -p src/preload/tsconfig.json --noEmit",
+        "typecheck:renderer": "tsc -p src/renderer/tsconfig.json --noEmit"
+    },
+    "devDependencies": {
+        "@types/node": "^20.12.7",
+        "@types/react": "^18.3.1",
+        "@types/react-dom": "^18.3.0",
+        "@types/react-router-dom": "^5.3.3",
+        "@typescript-eslint/eslint-plugin": "^7.7.1",
+        "@typescript-eslint/parser": "^7.7.1",
+        "@vitejs/plugin-react": "^4.2.1",
+        "@vitest/coverage-v8": "^1.5.2",
+        "electron": "^30.0.3",
+        "electron-builder": "^24.13.3",
+        "eslint": "^8.57.0",
+        "prettier": "^3.2.5",
+        "prettier-plugin-organize-imports": "^3.2.4",
+        "typescript": "^5.4.5",
+        "vite": "^5.2.10",
+        "vite-plugin-electron": "^0.28.7",
+        "vite-plugin-electron-renderer": "^0.14.5",
+        "vitest": "^1.5.2"
+    },
+    "dependencies": {
+        "@fluentui/react-components": "^9.49.0",
+        "@fluentui/react-icons": "^2.0.237",
+        "axios": "^1.7.2",
+        "json-loader": "^0.5.7",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-router": "^6.23.0",
+        "react-router-dom": "^6.23.0"
+    }
+}
