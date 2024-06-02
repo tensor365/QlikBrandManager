@@ -72,11 +72,11 @@ export const CreateBrandForm = () => {
               <Label required htmlFor={"qlik-icon-input"}>
                 Qlik Sense Icon
               </Label>
-              <input required type="file" id={"qlik-icon-input"} onChange={handleFileSelectedIcon}/>
+              <input required type="file" accept=".ico" id={"qlik-icon-input"} onChange={handleFileSelectedIcon}/>
               <Label required htmlFor={"qlik-logo-input"}>
               Qlik Sense Logo
               </Label>
-              <input required type="file" id={"qlik-logo-input"} onChange={handleFileSelectedLogo}/>
+              <input required type="file" accept=".png" id={"qlik-logo-input"} onChange={handleFileSelectedLogo}/>
             </DialogContent>
             <DialogActions> 
               <DialogTrigger disableButtonEnhancement>
@@ -84,7 +84,7 @@ export const CreateBrandForm = () => {
               </DialogTrigger>
               <DialogTrigger disableButtonEnhancement>
               <Button type="submit" appearance="primary">
-                Submit
+                Create
               </Button>
               </DialogTrigger>
             </DialogActions>

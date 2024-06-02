@@ -65,7 +65,7 @@ Follow these steps to get API Keys:
 
 <br/>
 
-**Step 5**: Give a description and an expiration date **_( ⚠️⚠️⚠️ Choose an expiration date with enough delay to avoid refresh all the time the token API ⚠️⚠️⚠️)_**.
+**Step 5**: Give a description and an expiration date **_( ⚠️⚠️⚠️ Choose a short expiration date ⚠️⚠️⚠️)_**.
 
 ![generate_api_key_2](https://user-images.githubusercontent.com/13502563/198839738-ef8190a5-0c3f-479a-84f7-08677bfe0f13.png)
 
@@ -86,8 +86,15 @@ Follow these steps to get API Keys:
 
 **Step 2**: Provide your Qlik Tenant URI and your API Token
 
-![airflow_connection_illustration](https://user-images.githubusercontent.com/13502563/198840215-9d083b67-7778-4c69-9ca6-166901a2766e.png)
+**Step 3**: Click on New Brand Button to add a new Brand Button 
 
+**Step 4**: Add a name for your new Qlik Brand, upload an ico file and png files  
+
+**Step 5**: Click on Create Button to create your new Qlik Brand
+
+**Step 6**: Select your brand and click on the activate button to active it on your tenant 
+
+At any time, you can deactivate it by selecting your active brand and clicking on Deactivate Button.
 
 <br/>
 <br/>
