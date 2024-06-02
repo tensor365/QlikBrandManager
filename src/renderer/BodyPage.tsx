@@ -56,7 +56,7 @@ export const Body = ()=>{
             <MessageBar>
                 <MessageBarBody>
                     <MessageBarTitle>Any bugs</MessageBarTitle>
-                    Click <Link>here</Link> to report bug on github.
+                    Click <Link target="_blank" href="https://github.com/tensor365/QlikBrandManager/issues">here</Link> to report bug on github.
                 </MessageBarBody>
             </MessageBar>
 
