@@ -40,7 +40,7 @@ const registerNativeThemeEventListeners = (allBrowserWindows: BrowserWindow[]) =
 (async () => {
     await app.whenReady();
     const mainWindow = createBrowserWindow();
-    mainWindow.webContents.openDevTools()
+    //mainWindow.webContents.openDevTools()
     mainWindow.removeMenu();
     loadFileOrUrl(mainWindow);
     registerIpcEventListeners();

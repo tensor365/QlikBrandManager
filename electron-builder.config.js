@@ -43,6 +43,9 @@ const config = {
             {
                 target: "appx",
             },
+            {
+                target: "portable",
+            },
         ],
     },
     linux: {

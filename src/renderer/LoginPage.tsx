@@ -3,9 +3,6 @@ import { Label, Input, Text, Textarea, Button } from "@fluentui/react-components
 import { useState} from "react";
 import { useNavigate  } from "react-router-dom";
 
-
-
-
 export const Login = ()=>{
 
   const [qlikTenant,setQlikTenantValue] = useState<string>('');

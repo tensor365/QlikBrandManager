@@ -4,7 +4,6 @@ import { DeleteRegular, EditRegular, CheckmarkRegular } from "@fluentui/react-ic
 import {getBrandList, deleteBrandList} from "./services/brands-api";
 import {  useEffect ,useState, useContext } from "react";
 
-
 import {refreshTableContext} from "./BodyPage";
 
 interface IData {

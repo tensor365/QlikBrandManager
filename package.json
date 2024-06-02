@@ -1,7 +1,7 @@
 {
-    "name": "electron-fluent-ui",
-    "description": "Template for developing Electron applications using TypeScript and Fluent UI React components",
-    "version": "4.2.1",
+    "name": "qlik-brand-manager",
+    "description": "Qlik Brand Manager",
+    "version": "0.0.1",
     "license": "MIT",
     "author": {
         "email": "clementparsy02@gmail.com",
@@ -25,6 +25,7 @@
         "typecheck:renderer": "tsc -p src/renderer/tsconfig.json --noEmit"
     },
     "devDependencies": {
+        "@electron/packager": "^18.3.2",
         "@types/node": "^20.12.7",
         "@types/react": "^18.3.1",
         "@types/react-dom": "^18.3.0",
