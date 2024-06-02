@@ -18,8 +18,11 @@ This repository provides a wizard that can be used to customize the logo from yo
 ## Road Map 
 
 🚧 Adding Control Entries for authentifcation (In Development)
+
 🚧 Adding Handling Error (In Development)
+
 🚧 OAuth2 Option (Not started)
+
 🚧 Automatic resizer for icon and logo (Not started)
 
 ## How to get it ?
@@ -33,7 +36,7 @@ Linux Version Installer:
 ## How to use it ?
 <br/>
 
-To customize your Tenant, you need to get a API Token and your Qlik Cloud Tenant URI
+To customize your Qlik Cloud Tenant, you need to get a API Token and your Qlik Cloud Tenant URI
 
 <br/>
 
