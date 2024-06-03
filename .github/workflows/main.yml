@@ -20,11 +20,8 @@ jobs:
           node-version: 20
       
       - name: Install Node tools
-        run: npm install --global
+        run: npm install
         
-      - name: Install Node tools
-        run: npm create vite@latest
-
       - name: Build electron app
         run: npm run build
 
