@@ -3,6 +3,9 @@ import { useNavigate  } from "react-router-dom";
 import { getUserInfo } from './services/brands-api';
 import { useEffect, useState } from "react";
 
+import qlikLogoPath from './img/qlik.png';
+
+
 export const Header = () => {
 
     const navigate = useNavigate();
@@ -29,6 +32,7 @@ export const Header = () => {
         navigate("/");
       };
 
+
     return (
         <div
             style={{
@@ -42,7 +46,7 @@ export const Header = () => {
         >
              <div style={{ display: "flex", flexDirection: "row", alignItems: "center", gap: 10,}}>
                 <Image 
-                 src="./img/qlik.png"
+                 src={qlikLogoPath}
                  alt="qlik-icon"
                  width="20%"
                  height="20%"
