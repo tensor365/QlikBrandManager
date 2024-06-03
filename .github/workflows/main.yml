@@ -21,6 +21,9 @@ jobs:
       
       - name: Install Node tools
         run: npm install --global
+        
+      - name: Install Node tools
+        run: npm create vite@latest
 
       - name: Build electron app
         run: npm run build
