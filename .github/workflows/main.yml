@@ -21,4 +21,10 @@ jobs:
       
       - name: Install Node tools
         run: npm install --global
+
+      - name: Build electron app
+        run: npm run build
+
+      - name: Packaging electron app
+        run: npm run package
         
