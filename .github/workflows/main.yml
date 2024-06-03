@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest]
+        os: [ubuntu-latest]
 
     steps:
       - name: Check out Git repository
@@ -21,6 +21,9 @@ jobs:
       
       - name: Install Node tools
         run: npm install
+
+      - name: Setting Github Token
+        run: export GH_TOKEN="${{ secrets.github_token }}"
         
       - name: Build electron app
         run: npm run build
