@@ -1,6 +1,6 @@
 <p align="center" style="vertical-align:center;">
   <a href="https://www.qlik.com/fr-fr/products/qlik-cloud">
-    <img alt="Qlik Sense Cloud" src="https://mace-solutions.fr/wp-content/uploads/2022/02/qlik-square.png" width="80", height="80" />
+    <img alt="Qlik Sense Cloud" src="https://github.com/tensor365/QlikBrandManager/assets/13502563/35203206-3ace-4158-97df-d6f5d1a1110b" />
   </a>
 </p>
 
