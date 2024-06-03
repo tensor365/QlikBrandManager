@@ -22,12 +22,11 @@ jobs:
       - name: Install Node tools
         run: npm install
 
-      - name: Setting Github Token
-        run: export GH_TOKEN="${{ secrets.github_token }}"
-        
       - name: Build electron app
         run: npm run build
 
       - name: Packaging electron app
         run: npm run package
+        env:
+          GH_TOKEN: ${{ secrets.github_token }}
         
