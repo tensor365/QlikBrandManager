@@ -28,5 +28,6 @@ jobs:
       - name: Packaging electron app
         run: npm run package:publish
         env:
+          CI: true
           GH_TOKEN: ${{ secrets.github_token }}
         
