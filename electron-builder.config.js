@@ -23,7 +23,7 @@ const config = {
                 arch: "universal",
             },
             {
-                target: "zip",
+                target: "pkg",
                 arch: "universal",
             },
         ],
