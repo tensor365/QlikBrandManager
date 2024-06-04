@@ -1,7 +1,7 @@
 {
     "name": "qlik-brand-manager",
     "description": "Qlik Brand Manager",
-    "version": "0.0.1",
+    "version": "v0.0.1",
     "license": "MIT",
     "author": {
         "email": "clementparsy02@gmail.com",
